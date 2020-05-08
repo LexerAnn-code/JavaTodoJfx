@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AddItemControllerForm">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="601.0" style="-fx-background-color: #ef534e;">
+         <children>
+            <Label alignment="CENTER" layoutX="225.0" layoutY="25.0" prefHeight="51.0" prefWidth="127.0" style="-fx-background-color: #ef534e;" text="2DO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="saveTaskButton" layoutX="193.0" layoutY="307.0" prefHeight="37.0" prefWidth="215.0" ripplerFill="#0fdd00" style="-fx-background-color: #364ae1;" text="Save Task" textFill="#f8f7f7" />
+      <JFXButton fx:id="taskTodo" layoutX="493.0" layoutY="361.0" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #0055ff;" text="To Do" textFill="WHITE" />
+      <TextField fx:id="taskTitle" layoutX="146.0" layoutY="160.0" prefHeight="25.0" prefWidth="321.0" promptText="Task" />
+      <TextField fx:id="taskDescription" layoutX="146.0" layoutY="239.0" prefHeight="25.0" prefWidth="321.0" promptText="Description" />
+   </children>
+</AnchorPane>

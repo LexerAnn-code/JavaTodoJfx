@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AddItemController">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="601.0" style="-fx-background-color: #ef534e;">
+         <children>
+            <Label alignment="CENTER" layoutX="225.0" layoutY="25.0" prefHeight="51.0" prefWidth="127.0" style="-fx-background-color: #ef534e;" text="2DO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="Image" fitHeight="70.0" fitWidth="78.0" layoutX="257.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/addfolder.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="219.0" layoutY="152.0" text="No task Today">
+         <font>
+            <Font name="Candara Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="addButtonTask4" layoutX="265.0" layoutY="320.0" text="ADD TASK" />
+   </children>
+</AnchorPane>

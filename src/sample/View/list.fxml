@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ListController">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="601.0" style="-fx-background-color: #ef534e;">
+         <children>
+            <Label alignment="CENTER" layoutX="225.0" layoutY="25.0" prefHeight="51.0" prefWidth="127.0" style="-fx-background-color: #ef534e;" text="2DO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXListView fx:id="listView" layoutX="7.0" layoutY="108.0" prefHeight="286.0" prefWidth="584.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXListView>
+   </children>
+</AnchorPane>

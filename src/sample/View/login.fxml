@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #ef534e;">
+         <children>
+            <JFXButton fx:id="signUpButton" layoutX="483.0" layoutY="38.0" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #ffffff;" text="Sign Up" />
+            <Label alignment="CENTER" layoutX="225.0" layoutY="25.0" prefHeight="51.0" prefWidth="127.0" style="-fx-background-color: #ef534e;" text="2DO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="loginButton" layoutX="268.0" layoutY="338.0" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: #ccb9bc;" text="Login" />
+      <Label fx:id="toastError" layoutX="129.0" layoutY="127.0" text="The UserName or the Password is incorrect.TRY AGAIN" textFill="#f50b0b" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXCheckBox fx:id="studentCheck" layoutX="187.0" layoutY="175.0" text="Student" />
+      <JFXCheckBox fx:id="adminCheck" layoutX="361.0" layoutY="175.0" text="Admin" />
+      <TextField fx:id="userNameText" layoutX="212.0" layoutY="258.0" />
+      <TextField fx:id="PasswordText" layoutX="212.0" layoutY="302.0" />
+   </children>
+</AnchorPane>
